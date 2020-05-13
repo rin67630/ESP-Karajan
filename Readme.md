@@ -15,7 +15,7 @@ managing the wifi, the NTP connection* and the time/ticks management
 
 The collaborative scheduler takes care to distribute the slow tasks evenly so not everything happens at the beginning of every second.
 
-
+https://www.cjoint.com/doc/20_05/JEntw5QrfVX_Karajan.jpg
 The Arduino IDE provides tabs to split the program into well structured subparts, so you can jump easily during development between every subpart:
 
 a) the declarations, constants, variables & includes
