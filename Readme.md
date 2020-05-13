@@ -28,8 +28,14 @@ g) the serial reports
 h) the wireless processes
 k) and finally the scheduler itself which will periodically start the routines listed from d) to h).
 
+Additonally two tabs with comments only are added for convenience: 
+
+x_ReadMe and y_ParkedCode, where you can put reminders and code examples.
+
+The Scheduler itself is in tab K_loop.
 The aim is to process the menu as fast as possible to be reactive enough, especially for IR processing which cannot suffer delays,
 The data processing is provided at 125mS and one second paces
 The display, serial and wireless sub processes are provided at a one second pace
 Finally but not least the code runs without modification on an ESP8266 or ESP32 altogether without requiring any specific library to be installed.
+
 Enjoy!
