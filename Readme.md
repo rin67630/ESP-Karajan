@@ -10,12 +10,14 @@ then your program becomes like a symphonic orchestra and you need a director.
 In hommage to Herber von Karajan, I have written that framework that helps me to develop on Arduino IDE
 and keep the overview. That development aims to structure your work and discharge you from the task of
 managing the wifi, the NTP connection* and the time/ticks management
+
 (*) The wifi and NTP connections are based on my other work NatLibESP https://github.com/rin67630/NatLibESP
 
 The collaborative scheduler takes care to distribute the slow tasks evenly so not everything happens at the beginning of every second.
 
 
 The Arduino IDE provides tabs to split the program into well structured subparts, so you can jump easily during development between every subpart:
+
 a) the declarations, constants, variables & includes
 b) the different functions used in the program
 c) the setup activities
