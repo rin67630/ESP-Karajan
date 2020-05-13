@@ -5,6 +5,7 @@ When your ESP-Based project is becoming complex and you have to deal with severa
 - a display (OLED, LCD or LED...
 - a report on serial port
 - a wireless communication
+
 then your program becomes like a symphonic orchestra and you need a director.
 In hommage to Herber von Karajan, I have written that framework that helps me to develop on Arduino IDE
 and keep the overview. That development aims to structure your work and discharge you from the task of
