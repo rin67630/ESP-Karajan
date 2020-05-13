@@ -7,8 +7,8 @@
 #include <time.h>
 #endif
 
-#define WIFI_SSID "GW-FM-7390"
-#define WIFI_PASS "3tr67333"
+#define WIFI_SSID "Your SSD"
+#define WIFI_PASS "Your Password"
 #define HOST_NAME "ESP-IoT"
 #define NTP_SERVER "de.pool.ntp.org"
 
