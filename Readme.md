@@ -54,14 +54,19 @@ Disp:000 - 000
 Seri:003 - 000  
 Wifi:000 - 000  
 
-The aim is to process the menu as fast as possible to be reactive enough, especially for IR processing which cannot suffer delays,
-The data processing is provided at 125mS and one second paces
-The display, serial and wireless sub processes are provided at a one second pace but each one shifted by 125mS to distribute the load evently.
+The aim is to process the menu as fast as possible to be reactive enough, especially for IR processing which cannot suffer delays,  
+The data processing is provided at 125mS and one second paces  
+The display, serial and wireless sub processes are provided at a one second pace but each one shifted by 125mS to distribute the load evently.  
 
-The scheduler is intended to work together with https://tinger.io , a very versatile dashboard service, that works without needing a MQTT broker and can be extremely fast, not limited by the usual minute pace of MQTT.
-The drawback is that if the internet communication is not perfect or the server is busy, the process my be stuck and you device may ger unresponsive.
-For that reason the handshake with thinger (which should take only microsecondes) is monitored and if it takes more than 500mS, the communication will be interrupted for 100 seconds, letting you use the menu, display, and compute data further. That is the optional GracePause.
+The scheduler is intended to work together with https://tinger.io , a very versatile dashboard service, that works without needing a MQTT broker and can be extremely fast, not limited by the usual minute pace of MQTT.  
+The drawback is that if the internet communication is not perfect or the server is busy, the process my be stuck and you device may ger unresponsive.  
+For that reason the handshake with thinger (which should take only microsecondes) is monitored and if it takes more than 500mS, the communication will be interrupted for 100 seconds, letting you use the menu, display, and compute data further. That is the optional GracePause.  
 
-Finally but not least the code runs without modification on an ESP8266 or ESP32 altogether without requiring any specific library to be installed.
+Finally but not least the code runs without modification on an ESP8266 or ESP32 altogether without requiring any specific library to be installed.  
+
+Some examples of Karajan used operatively:
+https://github.com/rin67630/Sound-pressure-level-meter-Booster  
+https://github.com/rin67630/Drok-Juntek-on-steroids  
+
 
 Enjoy!
