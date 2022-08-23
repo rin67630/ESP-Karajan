@@ -1,4 +1,4 @@
-A powerfull collaborative scheduler for Arduinos / ESP modules.
+Karajan is a  powerfull and versatile collaborative scheduler for Arduinos / ESP modules.
 
 
 When your ESP-Based project is becoming complex and you have to deal with several concurring tasks like
