@@ -18,16 +18,16 @@ https://www.cjoint.com/doc/20_05/JEntw5QrfVX_Karajan.jpg
 
 The Arduino IDE provides tabs to split the program into well structured subparts, so you can jump easily during development between every subpart:
 
-a) the declarations, constants, variables & includes
-b) the different functions used in the program
-c) the setup activities
-d) the menu
-e) the data processing
-f) Subsequent statistics
-g) the display
-h) the serial reports
-i) the wireless processes
-k) and finally the scheduler itself which will periodically start the routines listed from d) to h).
+a) the declarations, constants, variables & includes  
+b) the different functions used in the program  
+c) the setup activities  
+d) the menu  
+e) the data processing  
+f) Subsequent statistics  
+g) the display  
+h) the serial reports  
+i) the wireless processes  
+k) and finally the scheduler itself which will periodically start the routines listed from d) to i).
 
 The Scheduler itself is in tab K_loop.
 it will provide global variables like:
