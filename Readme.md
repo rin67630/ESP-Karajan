@@ -44,15 +44,15 @@ The global variables Second, Minute, Hour, Day, Month, Year are provided as well
 The scheduler provides also a Job report that tells you how long each task took:
 Job Timing
 
-GracePause: 000
-Job Durations(mS) Current - Max
-Menu:000 - 000 
-Fast:007 - 007
-Slow:000 - 000
-Stat:000 - 001
-Disp:000 - 000
-Seri:003 - 000
-Wifi:000 - 000
+GracePause: 000  
+Job Durations(mS) Current - Max  
+Menu:000 - 000  
+Fast:007 - 007  
+Slow:000 - 000  
+Stat:000 - 001  
+Disp:000 - 000  
+Seri:003 - 000  
+Wifi:000 - 000  
 
 The aim is to process the menu as fast as possible to be reactive enough, especially for IR processing which cannot suffer delays,
 The data processing is provided at 125mS and one second paces
